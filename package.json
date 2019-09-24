@@ -4,8 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "netlify-lambda build express",
     "start": "node app.js"
+  },
+  "engines": {
+    "node": "10.15.1"
   },
   "keywords": [],
   "author": "Geraldo Luiz <geraldobl58@gmail.com> (https://g3developer.com.br/)",
@@ -17,7 +19,6 @@
     "nodemailer": "^6.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.0",
-    "netlify-lambda": "^0.4.0"
+    "nodemon": "^1.19.0"
   }
 }
