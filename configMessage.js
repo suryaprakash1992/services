@@ -7,7 +7,7 @@ module.exports = (form) => {
     port: 587,
     auth: {
       user: 'haircraftservice@gmail.com',
-      pass: '$umm3r@10'
+      pass: 'dummy@1233"
     }
   });
 
